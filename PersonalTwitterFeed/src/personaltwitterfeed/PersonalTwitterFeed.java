@@ -54,10 +54,6 @@ public class PersonalTwitterFeed {
         System.out.println("Your twitter feed is full");
     }
     
-    public static String getTimeStamp(){
-        Date now = new Date();
-        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSSZ");
-        return dateFormat.format(now);
-    }
-    
+   
+   
 }
